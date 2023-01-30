@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(176, 201, 250);
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.input {
+    height: 28px;
+    width: 350px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.submitButton {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: transparent;
+    background-size: cover;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.containerList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    width: 25%;
+}
+
+li {
+    border: 1.5px solid rgb(46, 124, 107);
+    border-radius: 50px;
+    margin: 10px;
+    padding: 7.5px 7.5px 7.5px 7.5px;
+    
+}
+
+li:hover {
+    background-color: rgb(68, 199, 166);
+    color: black;
+    transition-duration: 0.5s;
+}
+
+li > button {
+	float: right;	
+}
+
+
+.list {
+    display: inline;
+    justify-items: flex-start;
+    color: rgb(46, 124, 107);
+}
+
+.deleteButton {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.deleteButton:hover {
+    color: red;
+    transition-duration: 0.5s;
+    /* padding-left: 1px;
+    padding-right: 1px; */
+}
